@@ -41,6 +41,18 @@ O assistente (Gems) utilizado para modelagem das letras pode ser acessado atrav�
 | Back 2U | Lento (~70 BPM) | R&B, contemporary R&B, slow tempo, deep bass, rain ambience, raspy vocals |
 | Glow | Moderado (~90 BPM) | contemporary R&B, upbeat, empowering, bright synths, punchy bass |
 
+### Hiperparâmetros na Geração Musical
+
+O Suno AI opera com parâmetros equivalentes ao **Temperature** e **Top-p** usados em LLMs, controlando criatividade e coerência do output:
+
+| Hiperparâmetro | O que controla | Como foi aplicado |
+| :--- | :--- | :--- |
+| **Style Tags** (equivalente ao Temperature) | Criatividade e variação sonora — tags mais específicas reduzem a aleatoriedade, tags genéricas aumentam a variação | Faixas emocionais receberam tags específicas (`raspy vocals`, `rain ambience`) para reduzir variação e aumentar precisão estilística |
+| **Estrutura lírica** ([Verse]/[Chorus]) | Coerência e repetição — equivalente ao Top-p, define o quanto o modelo segue a estrutura fornecida | Todas as faixas usaram marcações explícitas de estrutura para forçar coerência entre melodia e letra |
+| **BPM implícito** (`slow tempo`, `upbeat`) | Controla o ritmo e energia — afeta diretamente a temperatura emocional da faixa | Faixas melancólicas usaram `slow tempo` (~70 BPM) e faixas empoderadoras usaram `upbeat` (~90 BPM) |
+
+> A principal descoberta foi que **especificidade nas tags funciona como redução de Temperature** — quanto mais descritivo o prompt de estilo, menos o modelo "improvisa" e mais ele segue a intenção original.
+
 ### Avaliação do Output
 
 - **Coerência estilística:** O modelo Suno v4.5 manteve consistência com os parâmetros de estilo R&B fornecidos, gerando arranjos com baixo marcado e vocais femininos em todas as faixas.
