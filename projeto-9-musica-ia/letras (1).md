@@ -2,7 +2,7 @@
 
 ---
 
-## 01. Love Language
+## 01. love language
 
 **Estilo:** Contemporary R&B, slow tempo, heavy bass
 
@@ -62,7 +62,7 @@ Yeah...
 
 ---
 
-## 02. No Strings (Just Bodies)
+## 02. bodies
 
 **Estilo:** Contemporary R&B, sensual, slow burn
 
@@ -120,7 +120,7 @@ Yeah, just like that.
 
 ---
 
-## 03. Kingdom
+## 03. Vintage Love
 
 **Estilo:** Classic R&B, 2000s R&B, neo soul
 
@@ -178,7 +178,7 @@ Yeah...
 
 ---
 
-## 04. The Loop (Back to You)
+## 04. Back 2U
 
 **Estilo:** Contemporary R&B, emotional, confessional
 
@@ -237,7 +237,7 @@ Yeah...
 
 ---
 
-## 05. Glow Up
+## 05. Glow
 
 **Estilo:** Contemporary R&B, upbeat, empowering
 
