@@ -23,10 +23,10 @@ O assistente (Gems) utilizado para modelagem das letras pode ser acessado atrav�
 
 | Faixa | Título | Estilo/Referência | Link do Áudio |
 | :--- | :--- | :--- | :--- |
-| 01 | Love Language | Contemporary R&B, slow tempo, heavy bass | [Arquivo MP3](./audio/love_language.mp3) |
+| 01 | Love Language | Contemporary R&B, slow tempo, heavy bass | [Arquivo MP3](./audio/love%20language.mp3) |
 | 02 | No Strings (Just Bodies) | Contemporary R&B, sensual, slow burn | [Arquivo MP3](./audio/bodies.mp3) |
-| 03 | Kingdom | Classic R&B, 2000s R&B, neo soul | [Arquivo MP3](./audio/Vintage Love.mp3) |
-| 04 | The Loop (Back to You) | Contemporary R&B, emotional, confessional | [Arquivo MP3](./audio/Back 2U.mp3) |
+| 03 | Kingdom | Classic R&B, 2000s R&B, neo soul | [Arquivo MP3](./audio/Vintage%20Love.mp3) |
+| 04 | The Loop (Back to You) | Contemporary R&B, emotional, confessional | [Arquivo MP3](./audio/Back%202U.mp3) |
 | 05 | Glow Up | Contemporary R&B, upbeat, empowering | [Arquivo MP3](./audio/Glow.mp3) |
 
 ## 📄 Processo de Criação
