@@ -1,7 +1,7 @@
 # 🎵 Projeto Música & IA: Composição Generativa com Gemini e Suno
 
-![GitHub language count](https://img.shields.io/github/languages/count/1Naju/projeto-musica-ia?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/1Naju/projeto-musica-ia?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/1Naju/portfolio-ana-julia-oliveira-de-freitas?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/1Naju/portfolio-ana-julia-oliveira-de-freitas?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
 
 ## 📝 Descrição do Projeto
@@ -25,8 +25,8 @@ O assistente (Gems) utilizado para modelagem das letras pode ser acessado atrav�
 | :--- | :--- | :--- | :--- |
 | 01 | Love Language | Contemporary R&B, slow tempo, heavy bass | [Arquivo MP3](./audio/love_language.mp3) |
 | 02 | No Strings (Just Bodies) | Contemporary R&B, sensual, slow burn | [Arquivo MP3](./audio/bodies.mp3) |
-| 03 | Kingdom | Classic R&B, 2000s R&B, neo soul | [Arquivo MP3](./audio/Vintage_Love.mp3) |
-| 04 | The Loop (Back to You) | Contemporary R&B, emotional, confessional | [Arquivo MP3](./audio/Back_2U.mp3) |
+| 03 | Kingdom | Classic R&B, 2000s R&B, neo soul | [Arquivo MP3](./audio/Vintage Love.mp3) |
+| 04 | The Loop (Back to You) | Contemporary R&B, emotional, confessional | [Arquivo MP3](./audio/Back 2U.mp3) |
 | 05 | Glow Up | Contemporary R&B, upbeat, empowering | [Arquivo MP3](./audio/Glow.mp3) |
 
 ## 📄 Processo de Criação
