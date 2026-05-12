@@ -1,0 +1,41 @@
+# 🎵 Projeto Música & IA: Composição Generativa com Gemini e Suno
+
+![GitHub language count](https://img.shields.io/github/languages/count/1Naju/projeto-musica-ia?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/1Naju/projeto-musica-ia?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
+
+## 📝 Descrição do Projeto
+
+Este projeto explora a intersecção entre criatividade humana e Inteligência Artificial. Utilizando técnicas de **RAG (Retrieval-Augmented Generation)** através do Gemini Gems, foi criado um assistente especializado na análise lírica de **Kehlani**. O objetivo final foi a produção de um EP com 5 faixas inéditas, cujas letras foram geradas pela IA e a produção musical realizada via Suno AI.
+
+## 🛠️ Tecnologias Utilizadas
+
+* **Gemini Gems:** Criação de base de conhecimento e geração de letras.
+* **Suno AI:** Geração de áudio e arranjos instrumentais.
+* **GitHub:** Documentação e versionamento do projeto.
+
+## 🚀 Assistente Personalizado
+
+O assistente (Gems) utilizado para modelagem das letras pode ser acessado através do link abaixo:
+> [Link para o Fake Kehlani — Gemini Gems](https://gemini.google.com/gem/1jQyEL3sxmo-0NOjANuthaVH1yjVciLFW?usp=sharing)
+
+## 🎧 Músicas Geradas
+
+| Faixa | Título | Estilo/Referência | Link do Áudio |
+| :--- | :--- | :--- | :--- |
+| 01 | Love Language | Contemporary R&B, slow tempo, heavy bass | [Arquivo MP3](./audio/love_language.mp3) |
+| 02 | No Strings (Just Bodies) | Contemporary R&B, sensual, slow burn | [Arquivo MP3](./audio/bodies.mp3) |
+| 03 | Kingdom | Classic R&B, 2000s R&B, neo soul | [Arquivo MP3](./audio/Vintage_Love.mp3) |
+| 04 | The Loop (Back to You) | Contemporary R&B, emotional, confessional | [Arquivo MP3](./audio/Back_2U.mp3) |
+| 05 | Glow Up | Contemporary R&B, upbeat, empowering | [Arquivo MP3](./audio/Glow.mp3) |
+
+## 📄 Processo de Criação
+
+1. **Curadoria:** Seleção de letras de Kehlani como base de conhecimento, representando seu estilo confessional, vulnerável e direto do R&B contemporâneo.
+2. **Prompt Engineering:** Configuração do Gems ("Fake Kehlani") com instruções detalhadas para mimetizar o vocabulário, a métrica e os temas recorrentes da artista — amor, cura, autoconhecimento e relações complexas.
+3. **Composição:** Geração de 5 letras inéditas com temas sugeridos, garantindo originalidade e evitando reprodução literal das referências.
+4. **Produção:** Conversão das letras em áudio no Suno AI, com ajuste de parâmetros de gênero musical, BPM, timbre vocal e instrumentação para cada faixa.
+
+---
+
+Desenvolvido por [Ana Julia Oliveira de Freitas](https://github.com/1Naju)
