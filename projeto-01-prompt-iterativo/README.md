@@ -39,6 +39,39 @@ O refinamento iterativo demonstrou que pequenas mudanças no prompt geram grande
 
 ---
 
+## 🧠 Técnicas de Prompt Engineering Aplicadas
+
+### Few-Shot Prompting
+
+O **Few-Shot Prompting** foi aplicado ao fornecer exemplos do estilo esperado diretamente no prompt. Em vez de apenas descrever o resultado desejado, o trio incluiu fragmentos de referência que demonstravam o tom, vocabulário e estrutura corretos — reduzindo a ambiguidade e guiando o modelo com exemplos concretos.
+
+**Exemplo aplicado:**
+```
+"Escreva um e-mail formal no estilo do século XVII, como neste exemplo:
+'Vossa Majestade, humildemente me apresento...'
+O remetente é um pirata e o destinatário é um rei."
+```
+
+### Chain of Thought (CoT)
+
+O **Chain of Thought** foi aplicado ao solicitar que a IA explicitasse seu raciocínio antes de gerar o resultado. Isso permitiu identificar onde o modelo estava "pensando errado" e corrigir a lógica no prompt seguinte.
+
+**Exemplo aplicado:**
+```
+"Antes de escrever o e-mail, liste os elementos formais
+que um pirata do século XVII usaria para se dirigir a um rei.
+Depois, use esses elementos na redação."
+```
+
+### Impacto das Técnicas
+
+| Técnica | Prompt sem a técnica | Prompt com a técnica | Melhoria |
+| :--- | :--- | :--- | :--- |
+| **Few-Shot** | Resultado genérico, tom incorreto | Tom histórico e formal desde a 1ª frase | Alta |
+| **Chain of Thought** | IA ignorava restrições de época | IA listou e aplicou restrições corretamente | Alta |
+
+---
+
 ## 🔧 Como foi executado
 
 1. O professor forneceu o "alvo" (texto ou imagem a ser gerado).
