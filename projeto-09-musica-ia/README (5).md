@@ -29,7 +29,26 @@ O assistente (Gems) utilizado para modelagem das letras pode ser acessado atrav�
 | 04 | Back 2U | Contemporary R&B, emotional, confessional | [Arquivo MP3](./audio/Back%202U.mp3) |
 | 05 | Glow | Contemporary R&B, upbeat, empowering | [Arquivo MP3](./audio/Glow.mp3) |
 
-## 📄 Processo de Criação
+## 🔬 Análise de Qualidade e Parâmetros
+
+### Parâmetros Utilizados no Suno AI
+
+| Faixa | BPM estimado | Parâmetros de Estilo |
+| :--- | :--- | :--- |
+| love language | Lento (~70 BPM) | R&B, contemporary R&B, slow tempo, heavy bass, atmospheric synth |
+| bodies | Lento (~75 BPM) | R&B, contemporary R&B, slow burn, heavy bass, sensual, female vocals |
+| Vintage Love | Moderado (~85 BPM) | classic R&B, 2000s R&B, neo soul, 808 beats, electric piano, vocal harmonies |
+| Back 2U | Lento (~70 BPM) | R&B, contemporary R&B, slow tempo, deep bass, rain ambience, raspy vocals |
+| Glow | Moderado (~90 BPM) | contemporary R&B, upbeat, empowering, bright synths, punchy bass |
+
+### Avaliação do Output
+
+- **Coerência estilística:** O modelo Suno v4.5 manteve consistência com os parâmetros de estilo R&B fornecidos, gerando arranjos com baixo marcado e vocais femininos em todas as faixas.
+- **Qualidade vocal:** As faixas com parâmetro `raspy vocals` apresentaram maior expressividade emocional, aproximando-se do estilo confessional de Kehlani.
+- **Aderência às letras:** O modelo respeitou a estrutura de [Verse], [Chorus] e [Bridge] em todas as composições, sincronizando a melodia com a métrica das letras.
+- **Pontos de melhoria:** Algumas faixas geraram backing vocals genéricos não previstos nos parâmetros. O refinamento dos prompts de estilo com termos mais específicos (ex: `no background vocals`, `minimal production`) poderia reduzir esse comportamento.
+
+
 
 1. **Curadoria:** Seleção de letras de Kehlani como base de conhecimento, representando seu estilo confessional, vulnerável e direto do R&B contemporâneo.
 2. **Prompt Engineering:** Configuração do Gems ("Fake Kehlani") com instruções detalhadas para mimetizar o vocabulário, a métrica e os temas recorrentes da artista — amor, cura, autoconhecimento e relações complexas.
