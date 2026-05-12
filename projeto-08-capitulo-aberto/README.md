@@ -72,6 +72,38 @@ Stack técnica: Kotlin, Jitsi Meet Android SDK, Firebase (Auth + Firestore + FCM
 
 ---
 
+## 🗺️ Arquitetura da Informação e Jornada do Usuário
+
+O principal desafio do projeto foi organizar **três perfis de usuário distintos** (leitor casual, maratonista e criador de conteúdo) em uma única interface sem sobrecarregar a navegação.
+
+### Decisões de Design
+
+| Desafio | Decisão Tomada | Justificativa |
+| :--- | :--- | :--- |
+| **Hierarquia de conteúdo** | Feed principal prioriza lives em andamento no topo | Conteúdo ao vivo tem maior urgência e engajamento |
+| **Acesso ao Canal do Criador** | Sistema de aprovação de membros antes do acesso à live | Protege o criador e aumenta o valor percebido da exclusividade |
+| **Complexidade da Estante** | 4 status fixos (Lido, Lendo, Quero Ler, Favoritos) | Reduz fricção cognitiva — o leitor classifica em segundos |
+| **Sala de Foco** | Modal de estatísticas só aparece ao finalizar o timer | Não interrompe o estado de foco durante a sessão |
+| **Proteção de spoiler** | Toggle explícito na publicação da resenha | Respeita a experiência de outros leitores sem censurar o conteúdo |
+
+### Fluxo Principal do Usuário
+
+```
+Cadastro → Perfil → Estante Virtual
+                          ↓
+                    Seguir Criadores
+                          ↓
+              Feed → Live em andamento → Entrar no Canal
+                          ↓
+                  Maratona Literária → Sala de Foco → Att de progresso
+                          ↓
+                    Resenha Final
+```
+
+> A navegação foi projetada para que qualquer perfil de usuário consiga completar sua jornada principal em **no máximo 3 toques** a partir do feed.
+
+---
+
 ## ✨ Funcionalidades do App
 
 - Estante virtual com status de leitura e avaliação por estrelas
